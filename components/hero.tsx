@@ -105,7 +105,7 @@ export default function Hero() {
             className="text-foreground/60 text-base sm:text-lg lg:text-xl max-w-xl leading-relaxed"
           >
             Building production RAG pipelines and multi-agent systems with LangChain and LangGraph. 
-            <strong className="text-foreground/90 font-semibold"> Available for freelance projects, MVP development, and contract roles.</strong> If you have an idea, let's build it.
+            <strong className="text-foreground/90 font-semibold"> Available for freelance projects, MVP development, and contract roles.</strong> If you have an idea, let&apos;s build it.
           </motion.p>
 
           {/* CTA Buttons */}

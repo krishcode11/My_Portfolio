@@ -56,6 +56,7 @@ export default function Chatbot() {
 
   const playClickSound = () => {
     try {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const AudioContext = window.AudioContext || (window as any).webkitAudioContext;
       const ctx = new AudioContext();
       const osc = ctx.createOscillator();
@@ -70,7 +71,7 @@ export default function Chatbot() {
       gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.1);
       osc.start(ctx.currentTime);
       osc.stop(ctx.currentTime + 0.1);
-    } catch (e) {
+    } catch {
       // Silently ignore if audio context is blocked
     }
   };

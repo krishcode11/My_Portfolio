@@ -80,7 +80,7 @@ export default function About() {
                   I don&apos;t just prototype — I build systems with real retrieval metrics, observability, and latency budgets. Every project in my portfolio has measurable outcomes.
                 </p>
                 <p className="pt-2">
-                  <strong className="text-brand-300 font-semibold block mb-1">Let's build something together.</strong>
+                  <strong className="text-brand-300 font-semibold block mb-1">Let&apos;s build something together.</strong>
                   I am actively taking on <strong className="text-foreground/90">freelance projects, MVP development for startups, and contract roles</strong>. Whether you need a custom RAG pipeline, an AI chatbot, or a complex multi-agent system, I am ready to deliver a production-ready solution.
                 </p>
               </div>
