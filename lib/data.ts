@@ -110,6 +110,7 @@ export interface Experience {
   period: string;
   description: string;
   highlights?: string[];
+  techStack?: string[];
 }
 
 export const experienceData: Experience[] = [
@@ -120,6 +121,21 @@ export const experienceData: Experience[] = [
     description:
       "Transitioned into Generative AI and Agentic AI engineering through intensive self-study and shipping production projects. Built complete end-to-end systems covering RAG pipelines, multi-agent orchestration, vector search, and cloud deployment.",
     highlights: ["Medico — AI Medical Assistant Chatbot", "BrandGuardian AI — LLMOps Compliance Platform", "AgentFlow — Multi-Agent Research Assistant"],
+  },
+  {
+    title: "Analyst",
+    subtitle: "Business & Data Operations (Delhi NCR)",
+    period: "2021 – 2022",
+    description:
+      "Drove data-backed decision-making by architecting analytical reporting workflows, managing cross-functional stakeholder requirements, and transforming raw operational data into actionable business intelligence.",
+    highlights: [
+      "Engineered automated MIS reporting dashboards, aggregating complex datasets to deliver high-level business intelligence to management and stakeholders.",
+      "Conducted extensive data cleaning, validation, and transformation processes, ensuring high data integrity for critical operational metrics.",
+      "Collaborated cross-functionally with clients and internal teams to gather and translate business requirements into technical reporting deliverables.",
+      "Optimized existing reporting workflows, improving process efficiency and establishing robust systems for tracking key performance indicators (KPIs).",
+      "Leveraged advanced analytical functions (VLOOKUP, XLOOKUP, Power Query) to synthesize large datasets and surface actionable business insights."
+    ],
+    techStack: ["Data Analysis", "SQL", "Power Query", "Excel", "MIS Reporting", "Business Analysis"],
   },
   {
     title: "Guru Gobind Singh Indraprastha University",

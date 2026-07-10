@@ -46,6 +46,14 @@ PROJECTS (production-grade, with real metrics)
    - Metrics: 50+ sources per run · <2 min report generation · 80%+ less manual research time
 
 ━━━━━━━━━━━━━━━━━━━━
+EXPERIENCE
+━━━━━━━━━━━━━━━━━━━━
+1. Analyst — Business & Data Operations (Delhi NCR)
+   - Duration: 2021 – 2022
+   - Role: Drove data-backed decision-making by architecting analytical reporting workflows and managing stakeholder requirements.
+   - Highlights: Engineered automated MIS reporting dashboards, conducted extensive data cleaning/validation, and leveraged advanced analytics (VLOOKUP, XLOOKUP, Power Query, SQL) to surface actionable business insights.
+
+━━━━━━━━━━━━━━━━━━━━
 SKILLS
 ━━━━━━━━━━━━━━━━━━━━
 Languages: Python, SQL

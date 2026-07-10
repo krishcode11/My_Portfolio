@@ -70,14 +70,27 @@ export default function Experience() {
                     <p className="text-sm text-foreground/60 leading-relaxed mb-4">{item.description}</p>
 
                     {item.highlights && (
-                      <ul className="flex flex-col gap-1.5">
+                      <ul className="flex flex-col gap-1.5 mb-4">
                         {item.highlights.map((h) => (
-                          <li key={h} className="flex items-center gap-2 text-sm text-foreground/55">
-                            <span className="w-1.5 h-1.5 bg-brand-500 rounded-full flex-shrink-0" />
+                          <li key={h} className="flex items-start gap-2 text-sm text-foreground/75 leading-relaxed">
+                            <span className="w-1.5 h-1.5 bg-brand-500 rounded-full flex-shrink-0 mt-1.5" />
                             {h}
                           </li>
                         ))}
                       </ul>
+                    )}
+
+                    {item.techStack && (
+                      <div className="flex flex-wrap gap-2 mt-4 pt-4 border-t border-white/5">
+                        {item.techStack.map((tech) => (
+                          <span
+                            key={tech}
+                            className="px-2.5 py-1 text-[11px] uppercase tracking-wider font-semibold rounded-md bg-brand-500/10 text-brand-300 border border-brand-500/20"
+                          >
+                            {tech}
+                          </span>
+                        ))}
+                      </div>
                     )}
                   </motion.div>
                 </motion.div>

@@ -163,7 +163,7 @@ export default function Contact() {
                   <span className="flex items-center justify-center w-10 h-10 rounded-xl bg-brand-500/10 text-brand-400 group-hover:bg-brand-500/20 transition-colors">
                     <RiMailLine size={20} />
                   </span>
-                  <span className="text-sm">aiautomationforme</span>
+                  <span className="text-sm">aiautomationforme@gmail.com</span>
                 </a>
 
                 <div className="flex flex-col gap-3">
